@@ -1,0 +1,7 @@
+load("//:defs.bzl", "my_rule")
+
+my_rule(
+    name = "rule",
+    out = "rule.out",
+    content = "foo",
+)
